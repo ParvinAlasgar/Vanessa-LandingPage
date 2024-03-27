@@ -1,0 +1,31 @@
+// XX-Large devices (larger desktops, 1400px and down)
+@media only screen and (max-width: 1400px) {
+}
+// X-Large devices (large desktops, 1200px and down)
+@media only screen and (max-width: 1200px) {
+}
+
+// Large devices (desktops, 992px and down)
+@media only screen and (max-width: 992px) {
+}
+
+// Medium devices (tablets, 768px and down)
+@media only screen and (max-width: 768px) {
+}
+
+// Small devices  (tablets, 576px and down)
+@media only screen and (max-width: 576px) {
+  #nav {
+    .logo {
+      display: none;
+    }
+    ul {
+      justify-content: center !important;
+      column-gap: .2rem !important;
+    }
+  }
+}
+
+// Extra Small devices (tablets, 320px and down)
+@media only screen and (max-width: 320px) {
+}

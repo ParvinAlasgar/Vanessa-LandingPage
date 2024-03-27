@@ -1,0 +1,27 @@
+html {
+  font-size: 1rem !important;
+}
+
+@media only screen and (max-width: 576px) {
+  #nav .logo {
+    display: none;
+  }
+  #nav ul {
+    justify-content: center !important;
+    -moz-column-gap: 0.2rem !important;
+         column-gap: 0.2rem !important;
+  }
+}
+#nav {
+  left: 0;
+  z-index: 10;
+}
+#nav a {
+  transition: all 0.5s;
+}
+#nav a:hover {
+  color: #ec7550 !important;
+  -webkit-text-decoration: 0.1rem underline !important;
+          text-decoration: 0.1rem underline !important;
+  text-underline-offset: 0.3rem;
+}/*# sourceMappingURL=main.css.map */

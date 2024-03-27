@@ -1,0 +1,16 @@
+@import "./utils/variables";
+@import "./base/base";
+@import "./layouts/navigation", "./layouts/responsive";
+
+#nav {
+  left: 0;
+  z-index: 10;
+  a {
+    transition: all 0.5s;
+    &:hover {
+      color: $color-first !important;
+      text-decoration: 0.1rem underline !important;
+      text-underline-offset: 0.3rem;
+    }
+  }
+}
