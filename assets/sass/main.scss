@@ -2,6 +2,7 @@
 @import "./base/base";
 @import "./layouts/navigation", "./layouts/header", "./layouts/responsive";
 
+// Nav
 #nav {
   left: 0;
   z-index: 10;
@@ -12,5 +13,12 @@
       text-decoration: 0.1rem underline !important;
       text-underline-offset: 0.3rem;
     }
+  }
+}
+
+// Main
+#main {
+  // Partnors
+  #partnors {
   }
 }

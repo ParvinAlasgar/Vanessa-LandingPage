@@ -74,6 +74,9 @@ html {
   #header a {
     font-size: 0.7rem;
   }
+  #main img {
+    width: 50%;
+  }
 }
 #nav {
   left: 0;
