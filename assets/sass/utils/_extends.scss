@@ -1,0 +1,17 @@
+%background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+%overlay {
+  &::after {
+    content: "";
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+  }
+}
