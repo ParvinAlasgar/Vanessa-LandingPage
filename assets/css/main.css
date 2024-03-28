@@ -1,9 +1,9 @@
-#main #product, #header {
+#main #prices, #main #product, #header {
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#header::after {
+#main #prices::after, #header::after {
   content: "";
   position: absolute;
   background-color: #000;
@@ -112,5 +112,15 @@ html {
   margin-right: 0.4rem;
 }
 #main #learn {
+  background-color: #ec7550;
+}
+#main #prices {
+  background-image: url(/assets/images/prices.jpg);
+  z-index: 1;
+}
+#main #prices h3 {
+  font-size: 3rem;
+}
+#main #prices a {
   background-color: #ec7550;
 }/*# sourceMappingURL=main.css.map */

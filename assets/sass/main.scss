@@ -52,4 +52,17 @@
   #learn {
     background-color: $color-first;
   }
+  // Prices
+  #prices {
+    background-image: url(/assets/images/prices.jpg);
+    @extend %background-image;
+    @extend %overlay;
+    z-index: 1;
+    h3 {
+      font-size: 3rem;
+    }
+    a {
+      background-color: $color-first;
+    }
+  }
 }
