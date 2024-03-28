@@ -1,4 +1,4 @@
-#header {
+#main #product, #header {
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,5 +96,13 @@ html {
   font-size: 2rem;
 }
 #main #about i {
+  color: #ec7550;
+}
+#main #product {
+  background-image: url(/assets/images/product.png);
+  background-color: #f7f7f7;
+  height: 10rem;
+}
+#main #features i {
   color: #ec7550;
 }/*# sourceMappingURL=main.css.map */

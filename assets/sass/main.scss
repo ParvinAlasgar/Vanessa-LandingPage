@@ -20,9 +20,22 @@
 #main {
   // About
   #about {
-    h2{
+    h2 {
       font-size: 2rem;
     }
+    i {
+      color: $color-first;
+    }
+  }
+  // Product
+  #product {
+    background-image: url(/assets/images/product.png);
+    @extend %background-image;
+    background-color: #f7f7f7;
+    height: 10rem;
+  }
+  // Features
+  #features {
     i {
       color: $color-first;
     }
