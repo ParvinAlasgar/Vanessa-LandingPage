@@ -90,4 +90,11 @@ html {
   -webkit-text-decoration: 0.1rem underline !important;
           text-decoration: 0.1rem underline !important;
   text-underline-offset: 0.3rem;
+}
+
+#main #about h2 {
+  font-size: 2rem;
+}
+#main #about i {
+  color: #ec7550;
 }/*# sourceMappingURL=main.css.map */

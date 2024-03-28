@@ -18,7 +18,13 @@
 
 // Main
 #main {
-  // Partnors
-  #partnors {
+  // About
+  #about {
+    h2{
+      font-size: 2rem;
+    }
+    i {
+      color: $color-first;
+    }
   }
 }
