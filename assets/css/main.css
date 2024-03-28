@@ -107,7 +107,8 @@ html {
   color: #ec7550;
 }
 #main #key i,
-#main #reviews i {
+#main #reviews i,
+#main #contacts i {
   color: #ec7550;
   margin-right: 0.4rem;
 }
